@@ -4,9 +4,8 @@
  * factorial - Calculate the factorial of a number
  * @n: the number to culculate the factorial
  *
- * Return : integar value
+ * Return: integer value
  */
-
 int factorial(int n)
 {
 	if (n < 0)
