@@ -17,7 +17,7 @@ char *create_array(unsigned int size, char c)
 	}
 
 	/*Define values with malloc*/
-	buffer = (char *) malloc(size * sizeof(0));
+	buffer = (char *) malloc(size * sizeof(c));
 
 	if (buffer == 0)
 	{
@@ -26,10 +26,10 @@ char *create_array(unsigned int size, char c)
 
 	else
 	{
-	postion = 0;
-	while (postion < size) /*while for array*/
+	position = 0;
+	while (position < size) /*while for array*/
 	{
-	*(buffer + position = c;
+	*(buffer + position) = c;
 	postion++;
 	}
 	return (buffer);
